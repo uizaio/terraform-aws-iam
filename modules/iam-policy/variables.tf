@@ -1,19 +1,3 @@
-variable "account_id" {
-  description = "TThe account that we will assume to"
-  type = string
-}
-
-variable "role_name" {
-  description = "The role we will assume to"
-  type = string
-}
-
-variable "aws_region" {
-  description = "AWS region"
-  type = string
-  default = "ap-southeast-1"
-}
-
 variable "name" {
   description = "The name of the policy"
   type        = string
